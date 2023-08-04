@@ -5,7 +5,7 @@ A simple Android todo list app to demonstrate using [Room Database](https://deve
 Watch the YouTube video here: [https://www.youtube.com/watch?v=Md0tFv4PmuM](https://www.youtube.com/watch?v=Md0tFv4PmuM)
 
 ## Screenshots
-| <img src="app/src/main/res/images/todos-app-1.png" width=300> |
+<img src="app/src/main/res/images/todos-app-1.png" width=300> 
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
