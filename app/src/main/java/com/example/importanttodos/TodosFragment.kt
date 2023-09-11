@@ -23,8 +23,17 @@ class TodosFragment : Fragment() {
         val dao = TodosDatabase.getInstance(application).todosDao
         val viewModelFactory = TodosViewModelFactory(dao)
         val viewModel = ViewModelProvider(this, viewModelFactory)[TodosViewModel::class.java]
+        val adapter = TodoItemAdapter()
         binding.viewModel = viewModel
+        binding.todosList.adapter = adapter
         binding.lifecycleOwner = viewLifecycleOwner
+
+        viewModel.todos.observe(viewLifecycleOwner) { todosList ->
+            todosList?.let {
+                adapter.data = it
+            }
+        }
+
         return binding.root
     }
 }
