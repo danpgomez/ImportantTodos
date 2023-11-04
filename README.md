@@ -8,8 +8,8 @@ Watch the YouTube videos here:
 - [DiffUtil and RecyclerView Navigation](https://youtu.be/MM2h7cRV7TY)
 
 ## Screenshots
-<img src="app/src/main/res/images/list-screen.png" width=300> 
-<img src="app/src/main/res/images/edit-screen.png" width=300> 
+<img src="images/list-screen.png" width=300> 
+<img src="images/edit-screen.png" width=300> 
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
