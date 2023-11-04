@@ -39,7 +39,7 @@ class TodosFragment : Fragment() {
 
         viewModel.navigateToTodo.observe(viewLifecycleOwner) { todoId ->
             todoId?.let {
-                val action = TodosFragmentDirections.actionTodosFragmentToEditTodoFragment(it)
+                val action = TodosFragmentDirections.actionTodosFragmentToEditTodoFragment(todoId)
                 this.findNavController().navigate(action)
                 viewModel.onTodoItemNavigated()
             }
