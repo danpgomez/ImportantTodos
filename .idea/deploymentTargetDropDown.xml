@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="database_returnsCorrectData_whenTodoUpdated()">
+        <State />
+      </entry>
+      <entry key="database_returnsSizeOfOneAndCorrectTitle_whenNewTodoInserted()">
+        <State />
+      </entry>
+      <entry key="database_returnsUpdatedTodoItem_afterUpdate()">
+        <State />
+      </entry>
+      <entry key="database_returnsZero_whenAllTodosDeleted()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

@@ -54,6 +54,22 @@ dependencies {
     testImplementation "com.google.truth:truth:1.2.0"
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0-RC2'
 
+    // Instrumented Tests
+    // Kotlin Coroutines testing support (we added this in the last tutorial)
+    androidTestImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0-RC2'
+
+    // Since this needs to run on an Android device we must add this one to get the RunWith(AndroidJUnit4::class)
+    androidTestImplementation "androidx.test.ext:junit:1.1.5"
+
+    // To test LiveData we also need Arch Core
+    androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
+
+    // Assertion library for more readable assertions
+    androidTestImplementation "com.google.truth:truth:1.2.0"
+
+    // Espresso Core - needed for AndroidJUnit4 runner
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.5.1"
+
     // Lifecycle
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
